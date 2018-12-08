@@ -56,8 +56,8 @@ public class Main {
 		
 		path("todos", () -> {
 			path("/:id", () -> {
-				get("", renderer::renderOne);
-				get("/edit", renderer::renderEditor);
+				get("", renderer::renderOne); //incompleted
+				get("/edit", renderer::renderEditor); //incompleted
 				
 				delete("", methods::delete);
 				post("", methods::post);

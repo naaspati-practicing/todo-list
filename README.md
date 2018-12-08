@@ -2,6 +2,7 @@
 
 Practice of [spark-intercooler](spark-intercooler) (incomplete)
 
+
     // returns all todo as json
     http http://localhost:8080/all
                
@@ -12,4 +13,6 @@ Practice of [spark-intercooler](spark-intercooler) (incomplete)
     http post http://localhost:8080/todos/2 completed=true
   
     // add a new todo to the list 
-    http put http://localhost:8080/todos title=title content=content  
+    http put http://localhost:8080/todos title=title content=content
+
+where http is [httpie](https://httpie.org) client  
